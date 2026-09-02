@@ -1,0 +1,37 @@
+GOOGLE API KEY VULNERABILITY REPORT
+====================================
+
+Date: Wed Sep  2 19:44:34 IST 2026
+API Key: AIzaSyDYwSoos72ySduYwSiE-xfpEb52NdfWk3E
+Severity: CRITICAL
+
+FINDING:
+The Google Maps API key has NO API restrictions and NO referrer restrictions.
+It works with ALL tested Google APIs from ANY domain.
+
+TESTED APIS:
+  ✅ geocode API - Accessible
+  ✅ places API - Accessible
+  ✅ directions API - Accessible
+  ✅ distance API - Accessible
+  ✅ timezone API - Accessible
+  ✅ streetview API - Accessible
+
+IMPACT:
+- Financial: Unlimited billing potential (,000-0,000+ per day)
+- Security: Key can be used by anyone, anywhere
+- Data: Access to sensitive location data
+
+RECOMMENDATIONS:
+1. Immediately restrict the API key in Google Cloud Console
+2. Set HTTP referrer restrictions: *.ornn.com/*
+3. Set API restrictions: Only Maps JavaScript API
+4. Rotate the key (invalidate the exposed one)
+5. Set up billing alerts
+6. Review Google Cloud billing for any unauthorized usage
+
+REPRODUCTION STEPS:
+1. Extract key from frontend JS bundle
+2. Run: python3 google-api-referer-test.py --key AIzaSyDYwSoos72ySduYwSiE-xfpEb52NdfWk3E --no-referer
+3. All APIs return data (200 OK)
+

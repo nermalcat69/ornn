@@ -1,0 +1,63 @@
+2
+39
+2.14 KB
+2.45 KB
+0
+Summary
+URL: https://id.ornn.com/auth/v1/verify
+Status: 200
+Source: Network
+Address: 172.64.149.246:443
+Initiator: 
+2_up8gos6ch0a.js:13:2205
+
+Request
+Accept: */*
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1rYWZ3cXloc2NkemNpeXdvYXR1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyOTE5MDgsImV4cCI6MjA4MDg2NzkwOH0.pLdo0r6WEUkJ36o-nlFMVbLGhxuHAAtnfIZvXMGSVZQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1rYWZ3cXloc2NkemNpeXdvYXR1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyOTE5MDgsImV4cCI6MjA4MDg2NzkwOH0.pLdo0r6WEUkJ36o-nlFMVbLGhxuHAAtnfIZvXMGSVZQ
+Cache-Control: no-cache
+Content-Length: 88
+Content-Type: application/json;charset=UTF-8
+Origin: https://data.ornn.com
+Pragma: no-cache
+Priority: u=3, i
+Referer: https://data.ornn.com/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15
+X-Client-Info: supabase-ssr/0.12.3 createBrowserClient
+X-Supabase-Api-Version: 2024-01-01
+
+Response
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://data.ornn.com
+Access-Control-Expose-Headers: X-Total-Count, Link, X-Supabase-Api-Version
+Alt-Svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+cf-ray: a3463b07aed9a778-DEL
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Tue, 01 Sep 2026 18:10:14 GMT
+Priority: u=3,i
+sb-auth-refresh-token-prefix: hzoxf
+sb-auth-session-id: 73abe086-6d2b-46a7-afc2-9fa24cf576a7
+sb-auth-user-id: ab4c400b-6db6-4d66-b991-2ffb739dea5f
+sb-gateway-version: 1
+sb-project-ref: mkafwqyhscdzciywoatu
+sb-request-id: 01a05e2a-20d1-7161-b8b9-bd27f1a461df
+Server: cloudflare
+Server-Timing: cfExtPri
+Set-Cookie: __cf_bm=wYRiShtSYr8ODnfcZqdp7dv4_f6CRDa.HTYuAkMLD6I-1788286214.3502715-1.0.1.1-Coz1MJjeRiw61KO_LRdHAOvoGQ2SyMFS02LGR0w_O_LnoGR2ZM.II5tCjEmzi4A7GGIRJ68cllhBbVRbC0tW07pRhe4335WcTD5aCxJZVOc4YWi6lpmR85ZRThvIs.pR; HttpOnly; SameSite=None; Secure; Path=/; Domain=id.ornn.com; Expires=Tue, 01 Sep 2026 18:40:14 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Origin, Accept-Encoding
+X-Content-Type-Options: nosniff
+x-envoy-attempt-count: 1
+x-envoy-upstream-service-time: 229
+
+Request Data
+MIME Type: application/json
+Encoding: UTF-8
+Request Data: 

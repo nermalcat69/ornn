@@ -1,0 +1,19 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /auth/
+Disallow: /onboarding/
+Disallow: /settings/
+Disallow: /api-keys/
+Disallow: /internal/
+Disallow: /studio/
+Disallow: /oauth/
+Disallow: /accept-terms/
+Disallow: /payment-success/
+Disallow: /waitlist-confirmation/
+Disallow: /pending-approval/
+Disallow: /access-ended/
+Disallow: /home/
+
+Sitemap: https://data.ornn.com/sitemap.xml
+Sitemap: https://data.ornn.com/docs/sitemap.xml
