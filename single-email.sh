@@ -1,10 +1,7 @@
-#!/usr/bin/env bash
-# Fires N unauthenticated sign-in requests for ONE email and prints the
-# magic-link URL from each 303 Location header. No 429 across the run = vuln.
 set -euo pipefail
 
-EMAIL="arjun@graycup.in"                                  # target inbox
-COUNT="100"                                               # emails to send
+EMAIL="arjun@graycup.in"
+COUNT="100"                                  
 URL="https://compute.ornn.com/v1/auth/sign-in"
 
 echo "sending $COUNT magic links to $EMAIL"
