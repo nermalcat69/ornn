@@ -1,6 +1,7 @@
+#!/usr/bin/env bash
 set -euo pipefail
 
-EMAIL="arjun@graycup.in"
+EMAIL="rjeeneetards@gmail.com"
 COUNT="100"                                  
 URL="https://compute.ornn.com/v1/auth/sign-in"
 

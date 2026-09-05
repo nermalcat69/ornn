@@ -1,0 +1,687 @@
+=== Parallel curl log (POST with data) started at Sun Sep  6 01:54:48 IST 2026 ===
+Workers: 10, Delay: 0 s
+Method: POST, Content-Type: application/json
+URL: https://compute.ornn.com/onboarding/schedule
+---------------------------------------------
+[2026-09-06 01:54:49] [Worker 10] Attempt #1 | rand=12880 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-16", "time": "15:00", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: b3ca4810293f9076f6a15c8f97b28b82
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 1] Attempt #1 | rand=2885 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-10", "time": "16:40", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 01a1f6e522c4b2d7f3951d0d90757081
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 2] Attempt #1 | rand=19723 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-15", "time": "15:40", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 3aae77f547d310206472575b65cbf1b5
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 5] Attempt #1 | rand=23358 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-10-01", "time": "11:00", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+[2026-09-06 01:54:49] [Worker 7] Attempt #1 | rand=26084 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-10-06", "time": "10:40", "timezone": "UTC"}
+[2026-09-06 01:54:49] [Worker 4] Attempt #1 | rand=21540 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-08", "time": "09:10", "timezone": "UTC"}
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+---- RESPONSE HEADERS START ----
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 6bb6d5fc534adf13a5280a5750518590;o=1
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+---- RESPONSE HEADERS START ----
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+HTTP/2 405 
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+---- RESPONSE BODY START ----
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+x-content-type-options: nosniff
+allow: GET, HEAD, OPTIONS
+x-frame-options: DENY
+x-cloud-trace-context: d39a3aed2c2586e8367e1f0c60ba5c26
+referrer-policy: strict-origin-when-cross-origin
+date: Sat, 05 Sep 2026 20:24:49 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+content-type: text/html
+allow: GET, HEAD, OPTIONS
+server: Google Frontend
+x-cloud-trace-context: f5139afddf53820d861ab950550c62b2;o=1
+content-length: 0
+date: Sat, 05 Sep 2026 20:24:49 GMT
+via: 1.1 google
+content-type: text/html
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+server: Google Frontend
+
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY END ----
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+---- RESPONSE BODY START ----
+
+
+---- RESPONSE BODY END ----
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 6] Attempt #1 | rand=24266 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-13", "time": "16:40", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 657295c3efd8290240e1894c93e579eb
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 3] Attempt #1 | rand=20632 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-27", "time": "12:20", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 3281bdeae1cb683e5cba273f5aebb2b1
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 8] Attempt #1 | rand=26992 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-17", "time": "15:20", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 15e105809c6ad1a3271990bce855fe44
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 1] Attempt #2 | rand=26073 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-10-05", "time": "09:30", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: dcaf116ab6e486091a8f90f21c67a7be
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 2] Attempt #2 | rand=26198 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-11", "time": "13:20", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+[2026-09-06 01:54:49] [Worker 10] Attempt #2 | rand=28839 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-25", "time": "09:40", "timezone": "UTC"}
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+---- RESPONSE HEADERS START ----
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 828af345377cb9f82425e65c85ccd3dc
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+---- RESPONSE BODY START ----
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: c2738b83ec254f40b3b9830c3d3bfb7f
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE BODY END ----
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 5] Attempt #2 | rand=27204 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-10-01", "time": "16:50", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 2ff23dacc106afd4ebdb323d184ad11d
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 9] Attempt #1 | rand=27901 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-29", "time": "12:30", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 160357e66b33dbd0b81aa959fc2b1398
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 8] Attempt #2 | rand=28210 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-21", "time": "11:40", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 2951c8624b8cd2e3b22f5ef800e73c90
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 3] Attempt #2 | rand=26450 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-21", "time": "14:10", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 9af109347c6da9af37d6e16c6ad3ca22
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 4] Attempt #2 | rand=26701 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-10-02", "time": "15:40", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+[2026-09-06 01:54:49] [Worker 6] Attempt #2 | rand=27456 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-11", "time": "09:40", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 5a960814b96e8175ea23e1ca4be23deb
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+HTTP/2 405 
+
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: dc96995c2c1abaa464736b20b78c1cb0
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+---- RESPONSE BODY START ----
+
+
+---- RESPONSE BODY END ----
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:49] [Worker 7] Attempt #2 | rand=27959 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-11", "time": "10:50", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 4f112c9274b6e25e4763c234a044b9db
+date: Sat, 05 Sep 2026 20:24:49 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:50] [Worker 1] Attempt #3 | rand=28498 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-10-04", "time": "14:00", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: ade18c9f8365f0dae76875e1ccecec2d
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:50] [Worker 10] Attempt #3 | rand=12078 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-29", "time": "15:20", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: a784f84ca2eec4b2d35a0919f4073338
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:50] [Worker 2] Attempt #3 | rand=23284 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-09", "time": "12:50", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 8ad5c3bdf2084fb697ce741363f9913e
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:50] [Worker 6] Attempt #3 | rand=3904 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-17", "time": "15:10", "timezone": "UTC"}
+[2026-09-06 01:54:50] [Worker 5] Attempt #3 | rand=14334 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-10-06", "time": "11:50", "timezone": "UTC"}
+[2026-09-06 01:54:50] [Worker 4] Attempt #3 | rand=2425 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-23", "time": "11:30", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+[2026-09-06 01:54:50] [Worker 3] Attempt #3 | rand=12854 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-20", "time": "16:10", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+---- RESPONSE HEADERS START ----
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: d5ee6f0945a56646583b019b5ad21fcc
+x-cloud-trace-context: fc28db189f2d0efd46470ffe3748abfa
+date: Sat, 05 Sep 2026 20:24:50 GMT
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-type: text/html
+content-type: text/html
+server: Google Frontend
+server: Google Frontend
+content-length: 0
+content-length: 0
+via: 1.1 google
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+alt-svc: h3=":443"; ma=2592000
+
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+---- RESPONSE BODY START ----
+
+
+---- RESPONSE BODY END ----
+---- RESPONSE BODY END ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+HTTP/2 405 
+x-cloud-trace-context: c75120faa03abaa82bb19de010019ea6
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+content-type: text/html
+x-content-type-options: nosniff
+server: Google Frontend
+x-frame-options: DENY
+content-length: 0
+referrer-policy: strict-origin-when-cross-origin
+via: 1.1 google
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+alt-svc: h3=":443"; ma=2592000
+allow: GET, HEAD, OPTIONS
+
+x-cloud-trace-context: c099b33e4dd39c35d8712e3d19bd5de7
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY START ----
+---- RESPONSE BODY END ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:50] [Worker 9] Attempt #2 | rand=28462 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-10", "time": "12:00", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: d11a7c8222c5a99ab3fa19cbc8ab4c13
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:50] [Worker 8] Attempt #3 | rand=5384 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-11", "time": "10:50", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: efca117fbba24ad276613edae90f7c45
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:50] [Worker 7] Attempt #3 | rand=15814 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-30", "time": "14:50", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 58bf0e64bb70793a91247d10a69e9e5f
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:51] [Worker 10] Attempt #4 | rand=27712 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-15", "time": "16:20", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: c001f699a66a1c425785acdee3565e70
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
+[2026-09-06 01:54:51] [Worker 1] Attempt #4 | rand=5547 | HTTP 405 | curl 0 | ⚠️  RESPONSE (non-2xx) | payload: {"date": "2026-09-19", "time": "16:20", "timezone": "UTC"}
+---- RESPONSE HEADERS START ----
+HTTP/2 405 
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self'; connect-src 'self' https://api.stripe.com https://m.stripe.network https://q.stripe.com https://errors.stripe.com https://us.i.posthog.com https://us-assets.i.posthog.com https://compute.ornn.com wss://compute.ornn.com https://o4511513401884672.ingest.us.sentry.io https://storage.googleapis.com; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://compute.ornn.com https://accounts.google.com https://login.microsoftonline.com https://github.com; frame-ancestors 'none'; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self "https://js.stripe.com")
+allow: GET, HEAD, OPTIONS
+x-cloud-trace-context: 65020aa4cb71985455dbf888b321b10e
+date: Sat, 05 Sep 2026 20:24:50 GMT
+content-type: text/html
+server: Google Frontend
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
+---- RESPONSE HEADERS END ----
+---- RESPONSE BODY START ----
+
+---- RESPONSE BODY END ----
